@@ -16,7 +16,7 @@ header, footer {
     text-align: justify;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(72, 131, 179);
     font-size: 40px;
@@ -125,13 +125,30 @@ color: black;
     
   }
 
- /* Style pour le footer */
+
 footer {
     background-color: #fcdede; 
+    color: rgb(72, 131, 179);
     padding: 20px; 
     text-align: center; 
     margin-top: 20px; 
 }
+
+
+.Localisation li {
+    list-style: none; 
+    display: inline-block; 
+    margin-right: 210px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+iframe {
+    width: 500px; /
+    height: 350px; 
+    border: 0; 
+}
+
+
 
 
 
